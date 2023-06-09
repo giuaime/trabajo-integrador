@@ -1,0 +1,228 @@
+body{
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: #d6f1c7;
+    padding: 16px 0;
+}
+
+body{
+    background-color: #1d1d1d;
+}
+header h1{
+    color: rgb(18, 18, 18);
+    font-size: 40px;
+    font-weight: 60%;
+    font-style: initial;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+nav{
+    background-color: rgb(33, 32, 32);
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: rgb(181, 180, 180);
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgba(5, 0, 0, 2)
+}
+footer{
+    background-color: #c5fda9d3;
+    clear: both;
+    color: #151515;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+nav ul li a.activo{
+    background-color: rgb(0, 0, 0)
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: #e7e7e7;
+    font-weight: 400;
+}
+.bienvenidos{
+    width: 70%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+    color:aliceblue
+}
+
+.historia p{
+    font-size: 15px;
+    color:rgb(248, 255, 240);
+}
+.combos{
+    display:flex;
+    justify-content:end;
+    color:antiquewhite;
+    text-align:start;
+}
+.combo{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+    padding: 45px;
+    box-sizing:border-box;
+}
+.combo img{
+    
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+    width: 450px;
+    display: flexbox;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.combo h5 {
+    margin: 0;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+.combo h5{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.combo p{
+    color: #666;
+    font-size: 14px;
+}
+.servicio{
+    border: 1px solid #aefc84;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.servicio .info h4{
+    color: rgb(54, 129, 77);
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid beige;
+    padding-bottom: 10px;
+}
+.servicio .info p{
+    font-size: 13px;
+    color: antiquewhite;
+}
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
+.galeria{
+    display:flexbox;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.galeria img{
+    width: 250px;
+    border: 1px solid rgb(220, 245, 221);
+    padding:0%;
+    object-fit: cover;
+    box-sizing:content-box;
+    margin-bottom: 50px;
+    margin-right: 5%;
+}
+.galeria img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.05);
+    transform:rotate(-1.2deg) scale(1.05);
+    transition: 0.6s ease-out;
+    filter: grayscale(0.9);
+}
+
+
+.galeria h2 {
+    color: rgb(255, 255, 255);
+}
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+.contacto div {
+    width: 100%;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul li {
+    font-size: 13px;
+}
+.formulario p{
+    display: flex;
+}
+.formulario p label {
+    min-width: 80px;
+}
+.formulario p label{
+    display: flex;
+    align-items: center;
+    color: #fbf8e6;
+}
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+.formulario textarea{
+    resize: none;
+    height: 150px;
+    width: 195;
+}
+.formulario input[type="submit"] {
+    background: rgb(195, 245, 190);
+    box-shadow: 0 0 10px rgba(108, 107, 107, 0.4);
+    color: #000000;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+
+}
+.formulario input[type="submit"] :hover {
+    background-color: #eeecec;
+}
+.datos h2{
+    color: #efeded;
+}
+.datos p{
+    color:rgb(250, 247, 241);
+}
+.datos ul{
+    color: rgb(249, 245, 239);
+}
